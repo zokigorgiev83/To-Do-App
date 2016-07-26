@@ -1,0 +1,191 @@
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond);
+
+body {
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+
+#todo {
+    position: relative;
+    left: 25%;
+    right: 25%;
+    width: 450px;
+    height: auto;
+    border: 2px solid #e0e0d1;
+    border-bottom: none;
+}
+
+#header {
+    position: relative;
+    width: 450px;
+    height: 50px;
+    background-color: #5f5f5f;
+}
+
+#todos {
+    position: relative;
+    float: left;
+    width: 58%;
+    margin: 5px 10px 20px 15px;
+    color: #f2f2f2;
+    font-family: 'EB Garamond', serif;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+#all, #active, #completed {
+    position: relative;
+    top: 15px;
+    float: left;
+    background-color: #5f5f5f;
+    color: #e0e0d1;
+    font-family: 'EB Garamond', serif;
+    font-weight: 500;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+#all:hover {
+    color: #ffffff;
+}
+
+#all:active {
+    color: #0d0d0d;
+}
+
+#active:hover {
+    color: #ffffff;
+}
+
+#active:active {
+    color: #0d0d0d;
+}
+
+#completed:hover {
+    color: #ffffff;
+}
+
+#completed:active {
+    color: #0d0d0d;
+}
+
+#form {
+    position: relative;
+    height: 55px;
+}
+
+#input {
+    position: relative;
+    top: -7px;
+    float: left;
+    padding-left: 16px;
+    width: 84%;
+    height: 54px;
+    font-family: 'EB Garamond', serif;
+    font-size: 17px;
+    border: none;
+}
+
+input:focus, select:focus, textarea:focus, button:focus {
+    outline: none;
+}
+
+input:invalid {
+    box-shadow: none;
+}
+
+#btn {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    margin: 12px;
+    background-color: #ffffff;
+    border: 2px solid #e0e0d1;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+@-moz-document url-prefix() {
+    #btn {
+        margin-left: 122px;
+    }
+}
+
+#btn[value] {
+    color: #b3b3b3;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+#btn:hover {
+    background: #f2f2f2;
+    border: 2px solid #cccccc;
+}
+
+#btn:active {
+    background: #5f5f5f;
+}
+
+#items {
+    position: relative;
+    top: -18px;
+    left: 25%;
+    right: 25%;
+    color: #4d4d4d;
+    font-family: 'EB Garamond', serif;
+    font-size: 18px;
+}
+
+ul {
+    position: relative;
+    width: 410px;
+    min-height: 310px;
+    border: 2px solid #e0e0d1;
+}
+
+li {
+    position: relative;
+    left: -40px;
+    padding-left: 20px;
+    padding-top: 15px;
+    width: 430px;
+    height: 35px;
+    border-bottom: 2px solid #e0e0d1;
+    list-style: none;
+}
+
+li:nth-child(n + 6) {
+    border-bottom: none;
+}
+
+li:nth-child(n + 7) {
+    border-top: 2px solid #e0e0d1;
+}
+
+li:hover {
+    color: #000000;
+}
+
+.checkbox {
+    position: relative;
+    float: left;
+    margin-right: 10px;
+    height: 18px;
+    width: 18px;
+    background-color: #ffffff;
+    border: 1px solid #bfbfbf;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.checkbox:hover {
+    background-color: #f2f2f2;
+}
+
+.checkbox:active {
+    background-color: #5f5f5f;
+    border: 1px solid #000000;
+}
